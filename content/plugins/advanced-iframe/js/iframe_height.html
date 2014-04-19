@@ -1,0 +1,15 @@
+<script type="text/javascript">
+	function getFirstParamFromLocation() {
+		var pair = window.location.search.substring(1);
+		var parts = pair.split('=');
+		return parts[1];
+	}
+	var nHeight = getFirstParamFromLocation();
+  if (nHeight != undefined) {
+    try {
+      // if you use multiple instances use window.top.aiResizeIframeHeight_<id> 
+      window.top.aiResizeIframeHeight(nHeight);
+  	} catch(e) {
+    }
+  }
+</script>

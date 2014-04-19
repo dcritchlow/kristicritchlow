@@ -1,0 +1,24 @@
+/*
+Theme Name:     Twenty Thirteen Child
+Theme URI:      http://kristicritchlow.com/
+Description:    Child theme for the Twenty Thirteen theme
+Author:         Darin Critchlow
+Author URI:     http://darincritchlow.com/about/
+Template:       twentythirteen
+Version:        0.1.0
+*/
+
+@import url("../twentythirteen/style.css");
+
+html {
+    font-family: 'ABeeZee', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'ABeeZee', sans-serif;
+}
+.entry-title {
+    font-family: 'Grand Hotel', cursive;
+}
+.navbar {
+    background-color: #ffffff;
+}
